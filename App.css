@@ -1,0 +1,66 @@
+
+.login-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  border-color: rgb(255, 255, 255);
+  background-image: -webkit-image-set("https://cdn.shopify.com/s/files/1/0384/1808/8071/t/3/assets/pf-2e7ed373--cosgroveslawyers379765492_800x600.jpg?v=1594180063&resized");
+  overflow: hidden;
+  background-size: cover;
+  }
+
+  .login-box {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    width: 300px;
+    background-color: rgba(211, 204, 192, 0.8);
+    box-shadow: inset -5px -5px rgba(212, 212, 212, 0.1);
+  
+  }
+  
+.login-title {
+  font-size: 45px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.login-button {
+  width: 250px;
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: #2c5178;
+  color: rgb(255, 255, 255);
+  border: none;
+  cursor: pointer;
+}
+
+.login-forgot-password {
+  margin-top: 10px;
+}
+
+.login-signup {
+  margin-top: 10px;
+}
+
+.login-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.login-input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+
