@@ -3,7 +3,7 @@ export const Navitem = [
     title: "PayTrack",
     url: "/Dash",
     cName: "nav-links",
-    icon: "fa-solid fa-right-left"
+    icon: "fa-solid fa-right-left" 
   },
   {
     title: "Profile",
