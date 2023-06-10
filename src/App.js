@@ -1,13 +1,22 @@
 import "./styles.css";
 import Navbar from "./components/Navbar";
-import { Routes } from "react-router-dom";
+import { Route, Routes } from "react-router-dom";
+import Profile from "./Routes/Profile";
+import Home from "./Routes/Home";
+import Login from "./Routes/Login";
+import Dash from "./Routes/Dash";
+import Signup from "./Routes/Signup";
 
 export default function App() {
   return (
     <div className="App">
-      {/* <Routes> */}
-      <Navbar />
-      {/* <Routes/> */}
+      <Routes>
+        <Route path="/" element={<Login />} />
+        <Route path="/s" element={<Signup />} />
+        <Route path="/Dash" element={<Dash />} />
+        <Route path="/Home" element={<Home />} />
+        <Route path="/Profile" element={<Profile />} />
+      </Routes>
     </div>
   );
 }
