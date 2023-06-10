@@ -11,7 +11,7 @@ class Navbar extends Component {
   render() {
     return (
       <nav className="NavbarItems" style={{ background: "#D4C4FB" }}>
-        <h1 className="navbar-logo">ExpenseX</h1>
+        <h1 className="navbar-logo" ><Link to="/Home" style={{textDecoration:"none",color:"#472d86"}}>ExpenseX</Link></h1>
 
         <div className="menu-icons" onClick={this.handleClick}>
           <i
@@ -23,7 +23,7 @@ class Navbar extends Component {
           {Navitem.map((item, index) => {
             return (
               <li key={index}>
-                <a className={item.cName} href="/">
+                <a className={item.cName} href={item.url}>
                   <i className={item.icon}></i>
                   {item.title}
                 </a>
