@@ -1,10 +1,21 @@
-.glass{
-   /* display: grid; */
-  height: 97%;
-  width: 97%;
+.App {
+  /* padding: 0.5rem 3.5rem; */
+  /* color: var(--black); */
+  background: #ECD9EA;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Inter', sans-serif;
+}
+
+.Glass {
+  display: grid;
+  height: 97.5%;
+  width: 100%;
   background:#ffffff8a;
   border-radius: 2rem;
   gap: 16px;
-  /* grid-template-columns: 11rem auto 20rem; */
+  grid-template-columns: 66rem auto 10rem;
   overflow: hidden;
 }
