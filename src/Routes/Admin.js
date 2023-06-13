@@ -12,19 +12,19 @@ const Admin = () => {
   };
 
   return (
-    <div className="login-container">
-      <div className="login-box">
-        <form className="login-form" onSubmit={handleSubmit}>
-          <h2 className="login-title">Admin Login</h2> <br />
+    <div className="container">
+      <div className="box">
+        <form className="form" onSubmit={handleSubmit}>
+          <h2 className="title">Admin Login</h2> <br />
           <br />
           <input
-            className="login-input"
+            className="input"
             type="password"
             placeholder="Admin password"
             value={password}
             onChange={(e) => setPassword(e.target.value)}
           />
-          <button className="login-button" type="submit">
+          <button className="button" type="submit">
            Login
           </button>
         </form>
