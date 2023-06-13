@@ -19,3 +19,16 @@
   grid-template-columns: 66rem auto 10rem;
   overflow: hidden;
 }
+@media screen and (max-width: 1200px) {
+  .Glass{
+    grid-template-columns: 10% 50% auto;
+    overflow-y: scroll;
+    align-items: center;
+  } 
+}
+
+@media screen and (max-width: 768px) {
+  .Glass{
+    grid-template-columns: 1fr;
+  } 
+}

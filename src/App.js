@@ -6,6 +6,7 @@ import Home from "./Routes/Home";
 import Login from "./Routes/Login";
 import Dash from "./Routes/Dash";
 import Signup from "./Routes/Signup";
+import Admin from "./Routes/Admin";
 
 export default function App() {
   return (
@@ -16,6 +17,7 @@ export default function App() {
         <Route path="/Dash" element={<Dash />} />
         <Route path="/Home" element={<Home />} />
         <Route path="/Profile" element={<Profile />} />
+        <Route path="/admin" element={<Admin />} />
       </Routes>
     </div>
   );
