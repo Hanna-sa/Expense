@@ -12,6 +12,7 @@
   left: 50.5%;
   transform: translate(-50%);
   z-index: 9999;
+  font-size: 17px;
 }
 .navbar-logo {
   color: #472d86;
