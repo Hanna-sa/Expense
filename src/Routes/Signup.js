@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./Signup.css";
+import "./Login.css";
 
 const SignUp = () => {
   const [name, setName] = useState("");
@@ -32,54 +32,47 @@ const SignUp = () => {
   };
 
   return (
-    <div className="signup-container">
-      <div className="signup-box">
-        <form className="signup-form" onSubmit={handleSubmit}>
-          <h2 className="signup-title">Sign Up</h2>
-          {/* <br /> */}
+    <div className="login-container">
+      <div className="login-box">
+        <form className="login-form" onSubmit={handleSubmit}>
+          <h2 className="login-title">Sign Up Here</h2>
           <input
-            className="signup-input"
+            className="login-input"
             type="text"
             placeholder="Name"
             value={name}
             onChange={(e) => setName(e.target.value)}
           />
           <input
-            className="signup-input"
+            className="login-input"
             type="text"
             placeholder="Place"
             value={place}
             onChange={(e) => setPlace(e.target.value)}
           />
           <input
-            className="signup-input"
+            className="login-input"
             type="number"
             placeholder="Age"
             value={age}
             onChange={(e) => setAge(e.target.value)}
           />
           <input
-            className="signup-input"
+            className="login-input"
             type="email"
             placeholder="Email address"
             value={email}
             onChange={(e) => setEmail(e.target.value)}
           />
           <input
-            className="signup-input"
+            className="login-input"
             type="text"
             placeholder="Education"
             value={education}
             onChange={(e) => setEducation(e.target.value)}
           />
-          <textarea
-            className="signup-input"
-            placeholder="Contact Details"
-            value={contactDetails}
-            onChange={(e) => setContactDetails(e.target.value)}
-          ></textarea>
           <input
-            className="signup-input"
+            className="login-input"
             type="tel"
             placeholder="Phone Number"
             value={phoneNumber}
@@ -97,7 +90,7 @@ const SignUp = () => {
               <span className="signup-asterisk">*</span>
             </label>
           </div>
-          <button className="signup-button" type="submit">
+          <button className="login-button" type="submit">
             Sign Up
           </button>
         </form>
