@@ -7,7 +7,6 @@ const SignUp = () => {
   const [age, setAge] = useState("");
   const [email, setEmail] = useState("");
   const [education, setEducation] = useState("");
-  const [contactDetails, setContactDetails] = useState("");
   const [phoneNumber, setPhoneNumber] = useState("");
   const [termsChecked, setTermsChecked] = useState(false);
 
@@ -26,7 +25,6 @@ const SignUp = () => {
     console.log("Age:", age);
     console.log("Email:", email);
     console.log("Education:", education);
-    console.log("Contact Details:", contactDetails);
     console.log("Phone Number:", phoneNumber);
     console.log("Terms Checked:", termsChecked);
   };
