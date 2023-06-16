@@ -8,7 +8,7 @@ const Dash = () => {
   const [datas, setData] = useState([]);
 
   useEffect(() => {
-    axios.get("")
+    axios.get(" ")
       .then((response) => {
         setData(response.data);
       })
