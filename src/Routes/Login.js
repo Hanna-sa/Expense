@@ -36,8 +36,7 @@ const Login = () => {
           <button className="login-button" type="submit">
             Login
           </button>
-          <p className="login-forgot-password">Forgot password?</p>
-          <p className="login-signup">
+           <p className="login-signup">
             Don't have an account? <a href="/s">Sign Up</a>
           </p>
         </form>
