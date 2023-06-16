@@ -10,5 +10,11 @@ export const Navitem = [
     url: "/profile",
     cName: "nav-links",
     icon: "fa-solid fa-user"
+  },
+  {
+    title: "LogOut",
+    url: "/",
+    cName: "nav-links",
+    icon: "fa-solid fa-right-from-bracket"
   }
 ];
