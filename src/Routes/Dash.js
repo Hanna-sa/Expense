@@ -8,7 +8,7 @@ const Dash = () => {
   const [datas, setData] = useState([]);
 
   useEffect(() => {
-    axios.get("https://jsonplaceholder.typicode.com/posts")
+    axios.get("")
       .then((response) => {
         setData(response.data);
       })
