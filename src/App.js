@@ -7,12 +7,13 @@ import Login from "./Routes/Login";
 import Dash from "./Routes/Dash";
 import Signup from "./Routes/Signup";
 import Admin from "./Routes/Admin";
-
+import OpeningPage from "./Routes/OpeningPage";
 export default function App() {
   return (
     <div className="App">
       <Routes>
-        <Route path="/" element={<Login />} />
+        <Route path="/" element={<OpeningPage/>}/>
+        <Route path="/Login" element={<Login />} />
         <Route path="/s" element={<Signup />} />
         <Route path="/Dash" element={<Dash />} />
         <Route path="/Home" element={<Home />} />
