@@ -45,12 +45,15 @@ function CompactCard({ param, setExpanded }) {
 function ExpandedCard({ param, setExpanded }) {
   const [value, setValue] = useState("");
   const [name, setName] = useState("");
+  const [date, setDate] = useState("");
 
   const handleChange = (e) => {
     if (e.target.name === "source") {
       setName(e.target.value);
     } else if (e.target.name === "amount") {
       setValue(e.target.value);
+    } else if (e.target.name === "date") {
+      setDate(e.target.value);
     }
   };
 
@@ -89,11 +92,20 @@ function ExpandedCard({ param, setExpanded }) {
         value={value}
         onChange={handleChange}
       />
+      <input
+        className="addinput"
+        type="Date"
+        name="date"
+        placeholder="Date"
+        value={date}
+        onChange={handleChange}
+      />
       <button className="addbutton" type="submit">
         ADD
       </button>
     </motion.div>
   );
 }
+
 
 export default Card;
