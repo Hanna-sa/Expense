@@ -61,3 +61,13 @@
   border-radius: 15px;
   border: none;
 }
+
+  .signup-asterisk {
+    color: red;
+ }
+
+  .signup-checkbox-label {
+    font-size: small;
+  }
+  
+  
