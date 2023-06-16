@@ -107,4 +107,5 @@ function ExpandedCard({ param, setExpanded }) {
   );
 }
 
+
 export default Card;

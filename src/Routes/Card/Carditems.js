@@ -15,6 +15,7 @@ export const Carditems = [
       boxShadow: "0px 10px 20px 0px #69FF97",
     },
     value: "4,270",
+   
   },
   {
     title: "Expense",
