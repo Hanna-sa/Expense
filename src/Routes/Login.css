@@ -36,11 +36,6 @@
   cursor: pointer;
 }
 
-.login-forgot-password {
-  margin-top: 10px;
-  color: #472d86;
-}
-
 .login-signup {
   margin-top: 10px;
   color: #472d86;
@@ -60,6 +55,10 @@
   margin-bottom: 15px;
   border-radius: 15px;
   border: none;
+}
+
+.login-error {
+  color: red;
 }
 
   .signup-asterisk {
